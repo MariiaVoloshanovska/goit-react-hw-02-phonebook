@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const FilterDelBtn = styled.button`
+export const FilterDelBtn = styled.button`
   border-radius: 5px;
   transition: background-color 300ms cubic-bezier(0.165, 0.84, 0.44, 1);
   font-size: 15px;
@@ -22,8 +22,6 @@ const FilterDelBtn = styled.button`
   }
 `;
 
-const FilterListItem = styled.li`
+export const FilterListItem = styled.li`
   margin-bottom: 10px;
 `;
-
-export { FilterDelBtn, FilterListItem };

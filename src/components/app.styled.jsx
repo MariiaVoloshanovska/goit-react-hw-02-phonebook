@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const PhoneBookStyle = styled.div`
+export const PhoneBookStyle = styled.div`
   width: 600px;
   margin: 0 auto;
   margin: 50px auto;
@@ -12,4 +12,3 @@ const PhoneBookStyle = styled.div`
     box-shadow: 0px 0px 8px 0px #33333347;
 `;
 
-export { PhoneBookStyle };

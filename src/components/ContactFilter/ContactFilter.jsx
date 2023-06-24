@@ -12,7 +12,7 @@ export class ContactFilter extends Component {
         <FilterListItem id={contact.id} key={contact.id}>
           {contact.name}: {contact.number}
           <FilterDelBtn onClick={this.props.deleteContact} id={contact.id}>
-            delete
+            Delete
           </FilterDelBtn>
         </FilterListItem>
       );
